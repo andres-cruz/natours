@@ -24,7 +24,7 @@ This script in the package.json file is the responsible for compiling sass:
 "compile:sass": "node-sass sass/main.scss css/style.css"
 ```  
 
-You can add "-w" to the end of the script to make the compiler to watch for changes:
+You can add the "-w" flag to the script to make the compiler to watch for changes:
 ```json
 "compile:sass": "node-sass sass/main.scss css/style.css -w"
 ```  
