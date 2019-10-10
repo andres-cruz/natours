@@ -1,20 +1,20 @@
 body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.7;
-    color: $color-grey-dark;
-    padding: 3rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: $color-grey-dark;
+  padding: 3rem;
 }
 
 .heading-primary {
-    color: $color-white;
-    text-transform: uppercase;
+  color: $color-white;
+  text-transform: uppercase;
 
-    backface-visibility: hidden;
-    margin-bottom: 60px;
+  backface-visibility: hidden;
+  margin-bottom: 60px;
 
-    &--main {
+  &--main {
     display: block;
     font-size: 60px;
     font-weight: 400;
@@ -23,32 +23,49 @@ body {
     animation-name: moveInLeft;
     animation-duration: 3s;
     animation-timing-function: ease-out;
-    }
+  }
 
-    &--sub {
-        display: block;
-        font-size: 20px;
-        font-weight: 700;
-        letter-spacing: 17.4px;
-        animation: moveInRight 1s ease-out;
-    }
-
+  &--sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+    animation: moveInRight 1s ease-out;
+  }
 }
 
 .heading-secondary {
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: inline-block;
-    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-    -webkit-background-clip: text;
-    color: transparent;
-    letter-spacing: .2rem;
-    transition: all .2s;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
 
-    // yo a este efecto despues se lo sacaria
-    &:hover {
-        transform: skewY(2deg) skewX(15deg) scale(1.1);
-        text-shadow: .5rem 1rem 2rem rgba($color-black, .2)
-    }
+  // yo a este efecto despues se lo sacaria
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+  }
+}
+
+.heading-tertiaty {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
 }
