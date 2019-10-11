@@ -36,4 +36,4 @@ You can add the "-w" flag to the script to make the compiler to watch for change
 "compile:sass": "node-sass sass/main.scss css/style.css -w"
 ```
 
-revisar de cambiar los pixeles por rem!!!
+revisar de cambiar los pixeles por rem!!!!!!
