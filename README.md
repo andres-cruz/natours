@@ -37,3 +37,5 @@ You can add the "-w" flag to the script to make the compiler to watch for change
 ```
 
 revisar de cambiar los pixeles por rem!!!!!!
+
+continue: 48.Building the Footer

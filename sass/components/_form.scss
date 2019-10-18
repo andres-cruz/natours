@@ -9,7 +9,7 @@
     color: inherit;
     padding: 1.5rem 2rem;
     border-radius: 2px;
-    background-color: rgba($color-white, 0.5);
+    background-color: rbga($color-white, 0.5);
     border: none;
     border-bottom: 3px solid transparent;
     width: 90%;
@@ -51,6 +51,10 @@
     display: inline-block;
   }
 
+  &__radio-input {
+    display: none;
+  }
+
   &__radio-label {
     font-size: $default-font-size;
     cursor: pointer;
@@ -65,8 +69,8 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    left: 0;
+    top: -0.4rem;
 
     &::after {
       content: '';
@@ -78,6 +82,13 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      background-color: $color-primary;
+      opacity: 0;
+      transition: opacity 0.2s;
     }
+  }
+
+  &__radio-input:checked ~ &__radio-label &__radio-button::after {
+    opacity: 1;
   }
 }
