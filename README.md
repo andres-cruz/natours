@@ -7,15 +7,15 @@ If you want to check the course, go to this [link.](https://www.udemy.com/course
 
 This project makes heavy use of cutting-edge CSS techniques to create stunning designs and effects. Also, it implements a solid CSS architecture that makes building upon the existing base easily scalable.
 
-##### Hero Section
+#### Hero Section
 
 ![](image/header-min.png)
 
-##### Animated Cards
+#### Animated Cards
 
-![](image/feautes-min.png)
+![](image/features-min.png)
 
-##### Rotating Cards
+#### Rotating Cards
 
 ![](image/tours-min.png)
 
