@@ -1,29 +1,18 @@
 # Natours
 
-This project is based on the course "Advanced CSS and Sass" by Jonas Schmedtmann. I took this course to learn advanced CSS techniques and I learned a lot through building this project.
+This project is based on the course "Advanced CSS and Sass" by Jonas Schmedtmann. I took this course to learn advanced CSS techniques, and I learned a lot through building this project.
 If you want to check the course, go to this [link.](https://www.udemy.com/course/advanced-css-and-sass/)
 
 ### Project Description:
 
-This project makes heavy use of cutting-edge CSS techniques to create stunning designs and effects. Also, it implements a solid CSS architecture that makes building upon the existing base easily scalable.
-
-#### Hero Section
+This project makes heavy use of cutting-edge CSS techniques to create stunning designs and effects. Also, it implements a CSS architecture that facilitates writing reusable code and makes easily scalable building upon the existing base.
 
 ![](image/header-min.png)
 
-#### Animated Cards
-
-![](image/features-min.png)
-
-#### Rotating Cards
-
-![](image/tours-min.png)
-
-![](image/tours-2-min.png)
-
 ### Features:
 
-- CSS Architecture: 7-1 & BEM methodology
+- 7-1 Sass Architecture
+- Custom CSS Grid
 - Modern CSS techniques for design & effects
 - Advanced CSS animations
 
