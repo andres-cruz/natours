@@ -15,6 +15,7 @@ This project makes heavy use of cutting-edge CSS techniques to create stunning d
 - Custom CSS Grid
 - Modern CSS techniques for design & effects
 - Advanced CSS animations
+- Art Direction, Resolution and Density Switching for responsive design
 
 ### Tech stack & libraries:
 
@@ -31,38 +32,26 @@ $ npm i
 
 ### How to run this project
 
-This project uses the library node-sass to compile .scss files to .css:
+To run the server and compile sass in "watch" mode
+
+```sh
+$ npm start
+```
+
+To create a build for production
+
+```sh
+$ npm run build:css
+```
+
+This project uses the following libraries:
 
 ```json
 "devDependencies": {
-    "node-sass": "^4.12.0"
+    "autoprefixer": "^9.7.0",
+    "concat": "^1.0.3",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.3"
   }
-```
-
-### Commands
-
-To compile sass run this command:
-
-```sh
-$ npm run compile:sass
-```
-
-If you have installed live-server in your machine, you can run this command to launch the project:
-
-```sh
-$ live-server
-```
-
-### Scripts
-
-This script in the package.json file is the responsible for compiling sass:
-
-```json
-"compile:sass": "node-sass sass/main.scss css/style.css"
-```
-
-You can add the "-w" flag to the script to make the compiler to watch for changes:
-
-```json
-"compile:sass": "node-sass sass/main.scss css/style.css -w"
 ```
